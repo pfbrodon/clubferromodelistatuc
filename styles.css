@@ -1,12 +1,9 @@
 /* styles.css */
 body {
-    background-color: #ffb71d;
-<<<<<<< HEAD
+    background-color: yellowgreen;
     margin: 0; /* Eliminar el margen predeterminado del body */ 
     display: block;
     justify-content: center;
-=======
->>>>>>> a2f82ea (commit)
 }
 #titulo{
     color: rgb(0, 0, 0);
@@ -21,20 +18,13 @@ body {
 }
 .mail{
     font-family: Arial, Helvetica, sans-serif;
-<<<<<<< HEAD
 }
-.imagen{
-    width: 500px; /* Ancho del contenedor */
-    height: 400px; /* Alto del contenedor */
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-repeat: no-repeat;
-    background-image: url('CLUB.svg');
-    background-size: contain; /* Opcional: ajustar la imagen para cubrir todo el contenedor */
-=======
->>>>>>> a2f82ea (commit)
+/* Estilo personalizado para la imagen */
+.custom-image {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px yellowgreen;
+    border-radius: 5px;
 }
