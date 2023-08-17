@@ -8,8 +8,10 @@ body {
 #titulo{
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;  
+}
+.center-horizontal {
     text-align: center;
-    
 }
 .nota{
     color: rgb(30, 30, 30);
