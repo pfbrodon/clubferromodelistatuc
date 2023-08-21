@@ -22,6 +22,8 @@ body {
 .logo{
     display:flex;
     align-items: center;
+    padding: 20px;
+    justify-content: center;
 }
 .logo img{
     max-width: 110px;
