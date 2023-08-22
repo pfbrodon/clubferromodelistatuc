@@ -21,13 +21,16 @@ body {
     align-items: center;
 }
 .header{
-    background-color:khaki;
+    background-color:aliceblue;
 }
 #titulo{
     color: rgb(0, 0, 0);
     font-family:'Chunkfive Ex', Arial, Helvetica, sans-serif;
     text-align: center;  
     display:block;
+}
+nav{
+    background-color:cornflowerblue;
 }
 h2{
     font-family: 'Stencil_Regular', Arial, Helvetica, sans-serif;
@@ -68,7 +71,7 @@ h2{
     transform: scale(1.2);
 }
 .header .menuheader li a:hover{
-    color:darkred;
+    color:gold;
 }
 .header .menuheader .btn button{
     font-size:medium;
