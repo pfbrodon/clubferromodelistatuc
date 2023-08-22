@@ -20,70 +20,27 @@ body {
     align-content: center;
     align-items: center;
 }
-.header{
-    background-color:khaki;
-}
 #titulo{
     color: rgb(0, 0, 0);
     font-family:'Chunkfive Ex', Arial, Helvetica, sans-serif;
     text-align: center;  
     display:block;
+    padding-right: 5px;
 }
 h2{
     font-family: 'Stencil_Regular', Arial, Helvetica, sans-serif;
 }
-.header .logo{
+.logo{
     display:flex;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     justify-content: center;
-    cursor: pointer;
 }
-.header .logo img{
-    width: auto;
-    height: 130px;
+.logo img{
+    max-width: 130px;
+    height: auto;
     margin-right: 10px;
     margin-left: 5px;
-    transition: all 0.4s;
-}
-.header .logo img:hover{
-    transform: scale(1.2);
-}
-.header .menuheader {
-    list-style: none;
-}
-.header .menuheader li{
-    display: inline-block;
-    padding: 0 5px;
-    transition: all 0.4s;
-}
-.header .menuheader a{
-    font-size:large;
-    font-family: 'Stencil_Regular', Arial, Helvetica, sans-serif;
-    padding-right: 10px;
-    color:rgb(0, 0, 0);
-    text-decoration: none;
-}
-.header .menuheader li:hover{
-    transform: scale(1.2);
-}
-.header .menuheader li a:hover{
-    color:darkred;
-}
-.header .menuheader .btn button{
-    font-size:medium;
-    color:beige;
-    padding: 5px 15px;
-    background: darkslategrey;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-.header .menuheader .btn button:hover{
-    background-color: darkslateblue;
-    color: darkorange;
-    transform: scale(1.1);
 }
 .correo{
     display: flex;
